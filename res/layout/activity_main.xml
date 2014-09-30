@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Spinner  
+    	android:id="@+id/speciesSpinner"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:prompt="@string/spinner_prompt"/>
+    
+    <Spinner  
+    	android:id="@+id/countiesSpinner"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:prompt="@string/spinner_prompt"/>
+    
+    <Spinner  
+    	android:id="@+id/seasonSpinner"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:prompt="@string/spinner_prompt"/>
+
+    <Spinner  
+    	android:id="@+id/rangeSpinner"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:prompt="@string/spinner_prompt"/>
+    
+    <Spinner
+        android:id="@+id/resultsSpinner"
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:prompt="@string/spinner_prompt"/>
+    
+ <!--  <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/cameraButton"
+        android:text="Get Camera Zoom"/> -->
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/queryButton"
+        android:text="Query"/>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/resetButton"
+        android:text="Reset Search"/>
+
+    <TextView    
+       android:id="@+id/banner"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content" 
+       android:text="Results will appear below."/>
+    
+    <LinearLayout
+       android:layout_width="fill_parent" 
+       android:layout_height="275dip">
+    	<ScrollView
+       		android:layout_width="fill_parent"
+       		android:layout_height="fill_parent"
+       		android:padding="10dip"> 
+     
+    		<TextView    
+       			android:id="@+id/results"
+       			android:layout_width="fill_parent" 
+       			android:layout_height="wrap_content" 
+       			android:text="Dataset derived from: eBird Basic Dataset. Version: EBD_relFeb-2014. Cornell Lab of Ornithology, Ithaca, New York. February 2014.\n\nMany thanks to the Cornell Lab of Ornithology for access to their data."/>
+    		
+  		</ScrollView>
+  	</LinearLayout>
+  	
+	<fragment
+ 		android:id="@+id/map"
+   		class="com.google.android.gms.maps.MapFragment"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"/>  
+ 
+
+</LinearLayout>

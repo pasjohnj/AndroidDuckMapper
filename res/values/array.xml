@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="counties_array">
+   		<item>Select a county...</item>
+   		<item>Washtenaw</item>
+   		<item>Jackson</item>
+   		<item>Wayne</item>
+		<item>Lenawee</item>
+		<item>Monroe</item>
+		<item>Ingham</item>
+    </string-array>
+    <string-array name="season_array">
+        <item>Select a season...</item>
+        <item>Winter</item>
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+    </string-array>
+    <string-array name="species_array">
+        <item>Select a species...</item>
+        <item>American Black Duck</item>
+		<item>American Wigeon</item>
+		<item>Barnacle Goose</item>
+		<item>Barrow\'s Goldeneye</item>
+		<item>Black Scoter</item>
+		<item>Blue-winged Teal</item>
+		<item>Brant</item>
+		<item>Bufflehead</item>
+		<item>Cackling Goose</item>
+		<item>Canada Goose</item>
+		<item>Canvasback</item>
+		<item>Cinnamon Teal</item>
+		<item>Common Goldeneye</item>
+		<item>Common Merganser</item>
+		<item>Eurasian Wigeon</item>
+		<item>Gadwall</item>
+		<item>Graylag Goose</item>
+		<item>Greater Scaup</item>
+		<item>Greater White-fronted Goose</item>
+		<item>Green-winged Teal</item>
+		<item>Harlequin Duck</item>
+		<item>Hooded Merganser</item>
+		<item>King Eider</item>
+		<item>Lesser Scaup</item>
+		<item>Long-tailed Duck</item>
+		<item>Mallard</item>
+		<item>Muscovy Duck</item>
+		<item>Mute Swan</item>
+		<item>Northern Pintail</item>
+		<item>Northern Shoveler</item>
+		<item>Red-breasted Merganser</item>
+		<item>Redhead</item>
+		<item>Ring-necked Duck</item>
+		<item>Ross\'s Goose</item>
+		<item>Ruddy Duck</item>
+		<item>Snow Goose</item>
+		<item>Surf Scoter</item>
+		<item>Trumpeter Swan</item>
+		<item>Tundra Swan</item>
+		<item>White-winged Scoter</item>
+		<item>Wood Duck</item>
+    </string-array>
+    <string-array name="range_array">
+        <item>Select range...</item>
+        <item>5 miles</item>
+        <item>10 miles</item>
+        <item>25 miles</item>
+    </string-array>
+    <string-array name="results_array">
+        <item>Select max sightings...</item>
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+</resources>
